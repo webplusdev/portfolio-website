@@ -21,6 +21,7 @@
 						<div class="menu__body">
 							<ul class="menu__list">
 								<li class="menu__item"><a href="#main" class="menu__link">Главная</a></li>
+								<li class="menu__item"><a href="#advantages" class="menu__link">Преимущества</a></li>
 								<li class="menu__item"><a href="#works" class="menu__link">Работы</a></li>
 							</ul>
 						</div>
@@ -32,12 +33,16 @@
 			</div>
 		</header>
 		<main class="page">
+
 			<section class="page__main-screen main-screen" id="main">
 				<div class="main-screen__wrapper">
 					<div class="main-screen__container _container">
 						<div class="main-screen__content">
-							<h1 class="main-screen__title _anim-item _stop-anim">Портфолио верстальщика</h1>
-							<div class="main-screen__subtitle _anim-item _stop-anim">html5+css3+javascript</div>
+							<div class="main-screen__label _anim-item _stop-anim">Привет, меня зовут Виктория</div>
+							<h1 class="main-screen__title _anim-item _stop-anim">И я занимаюсь <span>вёрсткой
+									сайтов</span> </h1>
+							<div class="main-screen__subtitle _anim-item _stop-anim">Выполняю надёжную, кроссбраузерную
+								вёрстку с помощью HTML5, CSS3, JavaScript</div>
 							<button type="button" class="main-screen__button _anim-item _stop-anim">Посмотреть
 								работы</button>
 						</div>
@@ -49,11 +54,61 @@
 				</div>
 
 			</section>
+			<section class="page__advantages advantages" id="advantages">
+				<div class="advantages__container _container">
+					<h2 class="advantages__title _anim-item _stop-anim">Почему Вам стоит работать со мной</h2>
+					<div class="advantages__body ">
+						<div class="advantages__item item-adv _anim-item _stop-anim">
+							<div class="item-adv__wrapper">
+								<div class="item-adv__number"><span>01</span></div>
+								<div class="item-adv__content">
+									<div class="item-adv__title">Ответственность</div>
+									<div class="item-adv__descr">Я серьёзно подхожу к работе, поскольку уважаю Вас и
+										Ваше время.</div>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__item item-adv _anim-item _stop-anim">
+							<div class="item-adv__wrapper">
+								<div class="item-adv__number"><span>02</span></div>
+								<div class="item-adv__content">
+									<div class="item-adv__title">Отзывчивость</div>
+									<div class="item-adv__descr">Если Вы хотите внести некоторые изменения - мы это
+										обсудим и примем рациональное решение.</div>
+								</div>
+							</div>
+						</div>
+						<div class="advantages__item item-adv _anim-item _stop-anim">
+							<div class="item-adv__wrapper">
+								<div class="item-adv__number"><span>03</span></div>
+								<div class="item-adv__content">
+									<div class="item-adv__title">Продуманность</div>
+									<div class="item-adv__descr">В проект подключаются только необходимые модули, а код
+										является полностью осмысленным.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section class="page__works works" id="works">
 				<div class="works__container _container">
 					<h2 class="works__title _anim-item _stop-anim">Работы</h2>
+					<div class="works__subtitle _anim-item _stop-anim">*Вёрстка выполнена на основе готовых макетов.
+						Дизайн макетов
+						мне <span>не принадлежит.</span> </div>
 					<div class="works__wrapper">
-						<a href="https://webplusdev.github.io/portfolio-website/mirage/index.html"
+						<a href="https://webplusdev.github.io/ilc_website"
+							class="works__item work-item _anim-item _stop-anim">
+
+							<div class="work-item__img ibg">
+								<img class="ibg__img" src="img/works/ilc.png" alt="ilc">
+								<div class="work-item__label">перейти</div>
+							</div>
+							<div class="work-item__title">ILC - юридический центр</div>
+
+						</a>
+						<a href="https://webplusdev.github.io/Mirage-website/"
 							class="works__item work-item _anim-item _stop-anim">
 
 							<div class="work-item__img ibg">
@@ -63,11 +118,11 @@
 							<div class="work-item__title">Mirage - рекламное агентство</div>
 
 						</a>
-						<a href="https://webplusdev.github.io/portfolio-website/ojjo/index.html"
+						<a href="https://webplusdev.github.io/ojjo-website"
 							class="works__item work-item _anim-item _stop-anim">
 
 							<div class="work-item__img ibg">
-								<img class="ibg__img" src="img/works/ojjo.png" alt="mirage">
+								<img class="ibg__img" src="img/works/ojjo.png" alt="ojjo">
 								<div class="work-item__label">перейти</div>
 							</div>
 							<div class="work-item__title">Ojjo - ювелирные изделия</div>
@@ -76,7 +131,7 @@
 						<a href="https://webplusdev.github.io/portfolio-website/mountain/index.html"
 							class="works__item work-item _anim-item _stop-anim">
 							<div class="work-item__img ibg">
-								<img class="ibg__img" src="img/works/mountain.png" alt="mirage">
+								<img class="ibg__img" src="img/works/mountain.png" alt="mountain">
 								<div class="work-item__label">перейти</div>
 							</div>
 							<div class="work-item__title">MNTN - блог о походах и путешествиях</div>
@@ -88,7 +143,7 @@
 		<footer class="footer">
 			<div class="footer__container _container">
 				<a href="./index.html" class="footer__logo">
-					<img src="img/logo.svg" alt="logo">
+					<img src="img/logo1.svg" alt="logo">
 				</a>
 			</div>
 		</footer>
